@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aide mémoire</string>
+    <string name="Language">Changer la langue</string>
+    <string name="Welcome">Bienvenue au Forget Forgetfulness</string>
+    <string name="buttonp1">Aller à la page d\'accueil</string>
+    <string name="exbutton">Exercice</string>
+    <string name="exbuttonsub">Les exercices aident votre mémoire</string>
+    <string name="navbuttonsub">Voyez où vos proches / personnes connues restent</string>
+    <string name="navbutton">La navigation</string>
+    <string name="photobutton">Photos et souvenirs</string>
+    <string name="photobuttonsub">Revivez vos photos et exemples</string>
+    <string name="infobutton">Qu\'est-ce que la maladie d\'Alzheimer?</string>
+    <string name="infobuttonsub">Découvrez ce qu\'est la maladie d\'Alzheimer</string>
+    <string name="contactbutton">Contacts</string>
+    <string name="contactbuttonsub">Accéder aux contacts facilement</string>
+    <string name="notesbutton">Notes et rappels</string>
+    <string name="notesbuttonsub">Consultez vos notes et rappels</string>
+    <string name="helpbutton">AIDEZ-MOI! je suis perdu</string>
+    <string name="settutorialbutton">Tutoriel d\'application</string>
+    <string name="adminbutton">Admin</string>
+    <string name="adminbuttonsub">Pour le gardien: configurer les informations pour l\'application</string>
+    <string name="medicinebutton">Alerte médecine</string>
+    <string name="medicinebuttonsub">Prenez vos médicaments à temps!</string>
+    <!-- <string name="buttonp1">Go to home page</string>
+     <string name="buttonp1">Go to home page</string>
+     <string name="buttonp1">Go to home page</string> -->
+</resources>

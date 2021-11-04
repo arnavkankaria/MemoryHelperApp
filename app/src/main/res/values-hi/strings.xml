@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मेमोरी हेल्पर</string>
+    <string name="Language">भाषा बदलो</string>
+    <string name="Welcome">भुलक्कड़पन को भूल जाओ में आपका स्वागत है</string>
+    <string name="buttonp1">होमपेज पर जाये</string>
+    <string name="exbutton">व्यायाम</string>
+    <string name="exbuttonsub">व्यायाम आपकी याददाश्त में मदद करता है</string>
+    <string name="navbuttonsub">देखें कि आपके प्रियजन / परिचित लोग कहां रहते हैं</string>
+    <string name="navbutton">पथ प्रदर्शन</string>
+    <string name="photobutton">तस्वीरें और यादें</string>
+    <string name="photobuttonsub">अपनी तस्वीरों और उदाहरणों को त्यागें</string>
+    <string name="infobutton">अल्जाइमर रोग क्या है</string>
+    <string name="infobuttonsub">पता करें कि अल्जाइमर रोग क्या है</string>
+    <string name="contactbutton">संपर्क</string>
+    <string name="contactbuttonsub">संपर्कों को आसानी से एक्सेस करें</string>
+    <string name="notesbutton">नोट्स और अनुस्मारक</string>
+    <string name="notesbuttonsub">अपने नोट्स और रिमाइंडर देखें</string>
+    <string name="helpbutton">मदद! मै खो गया हूँ</string>
+    <string name="settutorialbutton">ऐप ट्यूटोरियल</string>
+    <string name="adminbutton">व्यवस्थापक</string>
+    <string name="adminbuttonsub">केयरटेकर के लिए: ऐप के लिए जानकारी सेट करें</string>
+    <string name="medicinebutton">दवा चेतावनी</string>
+    <string name="medicinebuttonsub">अपनी दवाएं समय पर लें!</string>
+    <!-- <string name="buttonp1">Go to home page</string>
+     <string name="buttonp1">Go to home page</string>
+     <string name="buttonp1">Go to home page</string> -->
+</resources>

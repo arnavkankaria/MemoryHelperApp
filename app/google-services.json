@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "561107621296",
+    "project_id": "memoryhelper-788a6",
+    "storage_bucket": "memoryhelper-788a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561107621296:android:d67950dfb3e7eb4b89b275",
+        "android_client_info": {
+          "package_name": "com.arnav.memoryhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561107621296-bssvkegjq13cm2lhbvf3anp4ppf6o1en.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arnav.memoryhelper",
+            "certificate_hash": "7ae6686fce796247b7d2417d4b3416ff19673d5d"
+          }
+        },
+        {
+          "client_id": "561107621296-qplhtmejv45vupup6nqh2abii7d21asc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2I6Yv8chYyW9monsyGqFbE1-RUUJ-NZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561107621296-qplhtmejv45vupup6nqh2abii7d21asc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

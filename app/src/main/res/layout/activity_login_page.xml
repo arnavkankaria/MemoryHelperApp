@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arnav.memoryhelper.LoginPage"
+    android:orientation="horizontal">
+
+    <!-- question 1 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/heading"
+        android:text="LOGIN PAGE"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_one"
+        android:text="17 + 56 = "
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/heading"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/question_one"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:hint="Write answer here"
+        android:id="@+id/answer_one"
+        android:layout_below="@+id/heading"
+        />
+
+    <!-- question two -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_two"
+        android:text="42 - 29 = "
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/question_one"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/question_two"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:hint="Write answer here"
+        android:id="@+id/answer_two"
+        android:layout_below="@+id/answer_one"
+        />
+
+
+    <!-- question three
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_three"
+        android:layout_below="@+id/question_two"
+        android:text="144/12 = "
+        android:padding="20dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/question_three"
+        android:layout_below="@+id/answer_two"
+
+        android:textSize="20sp"
+        android:hint="Write answer here"
+        android:id="@+id/answer_three"
+        />
+
+    <!- question four
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_four"
+        android:text="12 * 7 = "
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/question_three"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/question_three"
+
+        android:textSize="20sp"
+        android:hint="Write answer here"
+        android:id="@+id/answer_four"
+        android:layout_below="@+id/answer_three"
+        /> -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer_two"
+        android:id="@+id/submit"
+        android:text="Submit Responses"
+        android:padding="20dp"/>
+
+
+
+</RelativeLayout>

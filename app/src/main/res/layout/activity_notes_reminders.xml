@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arnav.memoryhelper.Exercises"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_list"
+    >
+
+
+    <ImageView
+        android:id="@+id/sun_image"
+        android:layout_width="106dp"
+        android:layout_height="118dp"
+        android:src="@drawable/sun_icon"
+        />
+
+    <Switch
+        android:id="@+id/sun_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-3dp"
+        android:layout_toRightOf="@id/sun_image"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:text="Morning medicine Taken?"
+        />
+
+    <ImageView
+        android:id="@+id/afternoon_image"
+        android:layout_width="106dp"
+        android:layout_height="118dp"
+        android:layout_below="@id/sun_image"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/afternoon" />
+
+    <Switch
+        android:id="@+id/afternoon_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sun_switch"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@id/afternoon_image"
+        android:padding="20dp"
+        android:paddingTop="20dp"
+        android:text="Afternoon Medicine Taken?"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/night_image"
+        android:layout_width="106dp"
+        android:layout_height="118dp"
+        android:layout_below="@id/afternoon_image"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/night" />
+
+    <Switch
+        android:id="@+id/night_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/afternoon_switch"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@id/night_image"
+        android:padding="20dp"
+        android:paddingTop="20dp"
+        android:text="Evening Medicine taken?"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/df"
+        android:text=""
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/night_switch"
+        android:enabled="false"
+        android:textColor="@color/brown"
+        />
+
+
+</RelativeLayout>

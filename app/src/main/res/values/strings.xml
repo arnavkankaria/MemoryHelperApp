@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Memory Helper</string>
+    <string name="Welcome">Welcome to the Forget Forgetfulness</string>
+    <string name="buttonp1">Go to home page</string>
+    <string name="Language">Change language</string>
+    <string name="exbutton">Exercises</string>
+    <string name="exbuttonsub">Exercises helping your memory</string>
+    <string name="navbutton">Navigation</string>
+    <string name="navbuttonsub">See where your loved ones/ known people stay</string>
+    <string name="photobutton">Photos and Memories</string>
+    <string name="photobuttonsub">Relive your photos and memories</string>
+    <string name="infobutton">What is Alzheimer\'s Disease</string>
+    <string name="infobuttonsub">Find out what Alzheimer\'s Disease is</string>
+    <string name="contactbutton">Contacts</string>
+    <string name="contactbuttonsub">Access contacts easily</string>
+    <string name="notesbutton">Notes and Reminders</string>
+    <string name="notesbuttonsub">Check out your notes and reminders</string>
+    <string name="helpbutton">HELP! I am lost</string>
+    <string name="settutorialbutton">App tutorial</string>
+    <string name="title_activity_maplost">Lost Location</string>
+    <string name="helpcontactbutton" translatable="false">Choose contacts</string>
+    <string name="adminbutton">Admin</string>
+    <string name="adminbuttonsub">For caretaker: set up info for the app</string>
+    <string name="medicinebutton">Medicine Alert</string>
+    <string name="medicinebuttonsub">Take your medicines on time!</string>
+
+    <!-- <string name="buttonp1">Go to home page</string>
+     <string name="buttonp1">Go to home page</string>
+     <string name="buttonp1">Go to home page</string> -->
+
+
+</resources>

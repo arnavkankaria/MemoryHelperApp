@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arnav.memoryhelper.Activity2"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/backgroundcolor">
+
+        <!--First row-->
+        <RelativeLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <!-- BUTTON 1-->
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/photo_add"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/cerclebackgroundblue"
+                        android:src="@drawable/ic_photo_library_black_24dp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Add Photos"
+                        android:textAlignment="center"
+                        />
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- BUTTON 2-->
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/photo_del"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/photo_add"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/cerclebackgroundyello"
+                        android:src="@drawable/ic_report_problem_black_24dp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="Delete photo and video"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- BUTTON 3-->
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/photo_delall"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/photo_del"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/cerclebackgroundyello"
+                        android:src="@drawable/ic_report_problem_black_24dp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="Delete all photos and videos"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:layout_margin="10dp">
+
+
+                <TextView
+                    android:id="@+id/label_images"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Photos(Add &amp; Delete)"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ll_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/label_images">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/img_0"
+                            android:layout_width="170dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
+                            android:padding="2dp"
+                            android:rotation="0"
+                            android:scaleType="fitXY" />
+
+                        <EditText
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:hint="person address here"
+                            android:id="@+id/img_0_edit"
+                            android:layout_below="@+id/img_0"
+                            />
+
+                        <TextView
+                            android:id="@+id/add_1"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_add"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:id="@+id/delete_1"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_delete"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/img_1"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:clickable="true"
+                            android:padding="2dp"
+                            android:rotation="0"
+                            android:scaleType="fitXY" />
+
+
+                        <EditText
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:hint="person address here"
+                            android:id="@+id/img_1_edit"
+                            android:layout_below="@+id/img_1"
+                            />
+
+                        <TextView
+                            android:id="@+id/add_2"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_add"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:id="@+id/delete_2"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_delete"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/ll_1">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/img_2"
+                            android:layout_width="170dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:clickable="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY" />
+
+                        <EditText
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:hint="person address here"
+                            android:id="@+id/img_2_edit"
+                            android:layout_below="@+id/img_2"
+                            />
+
+                        <TextView
+                            android:id="@+id/add_3"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_add"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:id="@+id/delete_3"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_delete"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/img_3"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:clickable="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY" />
+
+                        <EditText
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:hint="person address here"
+                            android:id="@+id/img_3_edit"
+                            android:layout_below="@+id/img_3"
+                            />
+
+                        <TextView
+                            android:id="@+id/add_4"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_add"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:id="@+id/delete_4"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_delete"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/ll_2">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="150dp"
+                            android:padding="2dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/img_4"
+                            android:scaleType="fitXY"
+                            android:clickable="true"
+                            />
+
+                        <EditText
+                            android:id="@+id/img_4_edit"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/img_4"
+                            android:hint="person address here"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/add_5"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_add"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:id="@+id/delete_5"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_delete"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/img_5"
+                            android:layout_width="180dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:clickable="true"
+                            android:padding="2dp"
+                            android:scaleType="fitXY" />
+
+                        <EditText
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="15sp"
+                            android:hint="person address here"
+                            android:id="@+id/img_5_edit"
+                            android:layout_below="@+id/img_5"
+                            />
+
+                        <TextView
+                            android:id="@+id/add_6"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_add"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+
+                        <TextView
+                            android:id="@+id/delete_6"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="31dp"
+                            android:background="@drawable/ic_delete"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="35dp" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/refresh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_3"
+                    android:text="Delete All Photos" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

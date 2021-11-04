@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मेमरी मदतनीस</string>
+    <string name="buttonp1">मुख्यपृष्ठावर जा</string>
+    <string name="Language">भाषा बदला</string>
+    <string name="Welcome">विसरभोळेपणा विसरा आपले स्वागत आहे</string>
+    <string name="exbutton">व्यायाम</string>
+    <string name="exbuttonsub">आपल्या स्मरणशक्तीला मदत करणारे व्यायाम</string>
+    <string name="navbuttonsub">आपले प्रियजन / ज्ञात लोक कोठे राहतात ते पहा</string>
+    <string name="navbutton">पथ प्रदर्शन...</string>
+    <string name="photobutton">फोटो आणि मेमरी</string>
+    <string name="photobuttonsub">आपले फोटो आणि आठवणी पुन्हा जिवंत करा</string>
+    <string name="infobutton">अल्झायमर रोग म्हणजे काय</string>
+    <string name="infobuttonsub">अल्झायमर रोग म्हणजे काय ते शोधा</string>
+    <string name="contactbutton">संपर्क</string>
+    <string name="notesbutton">नोट्स आणि स्मरणपत्रे</string>
+    <string name="contactbuttonsub">संपर्कांमध्ये सहज प्रवेश करा</string>
+    <string name="notesbuttonsub">आपल्या नोट्स आणि स्मरणपत्रे तपासा</string>
+    <string name="helpbutton">मदत! मी हरवलो आहे</string>
+    <string name="settutorialbutton">अ‍ॅप ट्यूटोरियल</string>
+    <string name="adminbutton">प्रशासन</string>
+    <string name="adminbuttonsub">केअर टेकरसाठी: अ‍ॅपसाठी माहिती सेट अप करा</string>
+    <string name="medicinebutton">औषधाचा इशारा</string>
+    <string name="medicinebuttonsub">आपली औषधे वेळेवर घ्या!</string>
+    <!-- <string name="buttonp1">Go to home page</string>
+     <string name="buttonp1">Go to home page</string>
+     <string name="buttonp1">Go to home page</string> -->
+</resources>
